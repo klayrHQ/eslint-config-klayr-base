@@ -1,24 +1,24 @@
 {
-	"name": "eslint-config-lisk-base",
-	"version": "2.0.1",
-	"description": "Base eslint config for Lisk projects.",
+	"name": "eslint-config-klayr-base",
+	"version": "2.0.3",
+	"description": "Base eslint config for Klayr projects.",
 	"author": "Lisk Foundation <admin@lisk.io>, lightcurve GmbH <admin@lightcurve.io>",
 	"license": "GPL-3.0",
 	"keywords": [
 		"eslint",
-		"lisk",
+		"klayr",
 		"blockchain"
 	],
-	"homepage": "https://github.com/LiskHQ/eslint-config-lisk-base#readme",
+	"homepage": "https://github.com/klayrhq/eslint-config-klayr-base#readme",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/LiskHQ/eslint-config-lisk-base.git"
+		"url": "git+https://github.com/klayrhq/eslint-config-klayr-base.git"
 	},
 	"bugs": {
-		"url": "https://github.com/LiskHQ/eslint-config-lisk-base/issues"
+		"url": "https://github.com/klayrhq/eslint-config-klayr-base/issues"
 	},
 	"engines": {
-		"node": ">=12.13.0",
+		"node": ">=18.19.1",
 		"npm": ">=6.12.0"
 	},
 	"main": "index.js",
@@ -27,22 +27,22 @@
 		"lint:fix": "eslint --fix ."
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "4.19.0",
-		"@typescript-eslint/parser": "4.19.0",
-		"eslint": "7.22.0",
-		"eslint-config-airbnb-base": "14.2.1",
-		"eslint-plugin-import": "2.22.1",
-		"eslint-config-prettier": "8.1.0",
-		"eslint-plugin-jest": "24.3.2"
+		"@typescript-eslint/eslint-plugin": "7.3.1",
+		"@typescript-eslint/parser": "7.3.1",
+		"eslint": "8.57.0",
+		"eslint-config-airbnb-base": "15.0.0",
+		"eslint-plugin-import": "2.29.1",
+		"eslint-config-prettier": "9.1.0",
+		"eslint-plugin-jest": "27.9.0"
 	},
 	"peerDependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.19.0",
-		"@typescript-eslint/parser": "^4.19.0",
-		"eslint": "^7.22.0",
-		"eslint-plugin-import": "^2.22.1",
-		"eslint-plugin-jest": "^24.3.2"
+		"@typescript-eslint/eslint-plugin": "^7.3.1",
+		"@typescript-eslint/parser": "^7.3.1",
+		"eslint": "^8.57.0",
+		"eslint-plugin-import": "^2.29.1",
+		"eslint-plugin-jest": "^27.9.0"
 	},
 	"devDependencies": {
-		"typescript": "4.2.3"
+		"typescript": "5.0.2"
 	}
 }
